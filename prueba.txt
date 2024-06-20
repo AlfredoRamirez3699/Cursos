@@ -9,3 +9,5 @@ cambios realizados a las 3 AM
 la fecha hoy es 20/6/24.
 
 inicio de pruebas con git
+
+git show status
