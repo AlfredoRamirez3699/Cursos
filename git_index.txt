@@ -92,5 +92,7 @@ inicio de pruebas con git
 
 git show status
 
-meging test
+merging test
+
+conflict test a
 ---end of starting tests---
