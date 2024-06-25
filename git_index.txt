@@ -92,7 +92,13 @@ inicio de pruebas con git
 
 git show status
 
+<<<<<<< HEAD
 meging test
 
 conflict test b
+=======
+merging test
+
+conflict test a
+>>>>>>> additions
 ---end of starting tests---
