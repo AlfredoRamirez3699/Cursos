@@ -42,6 +42,17 @@ git branch                                      creates a branch from current ac
 
 git reset <commit_SHA> --soft                   resets branch to choosen commit (keeps staging)
 git reset <commit_SHA> --hard                   resets branch to choosen commit (delets commits in front of choosen commit)
+------
+
+
+
+---GitHub command index---
+git clone <url>                                 copy EVERYTHING from a cloud repository to local
+
+git push                                        update cloud repository from local
+
+git pull                                        update local repository from cloud
+------
 
 
 
