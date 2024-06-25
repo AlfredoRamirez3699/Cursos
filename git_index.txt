@@ -6,6 +6,8 @@ ls                                              view available files/folders in 
 ls -l                                           view available files/folders LIST in directory
 ls -al                                          view available files/folders LIST in directory(show hidden)
 
+expand <file>                                   show the file content through the terminal
+
 history                                         shows history of comands used
 
 !<command history number>                       uses selected command from history
@@ -16,6 +18,7 @@ cd <objective directory>                        change directory
 
 git log                                         deploys list of repository log of commits on current directory
 git log --stat                                  deploys list log of commits with summed changes
+git log <branch_name>                           deploys list log of commits from selected branch
 
 git status                                      shows unsaved and staged changes on directory
 
@@ -42,6 +45,8 @@ git checkout <commit_SHA>                       updtae head file to selected com
 
 git branch                                      shows existing branches
 git branch <branch_name>                        creates branch named <branch_name> from head
+
+git merge <branch_name>                         bring changes from selected branch to current branch (head)
 
 git reset <commit_SHA> --soft                   resets branch to choosen commit (keeps staging)
 git reset <commit_SHA> --hard                   resets branch to choosen commit (delets commits in front of choosen commit)
@@ -86,4 +91,6 @@ la fecha hoy es 20/6/25.
 inicio de pruebas con git
 
 git show status
+
+meging test
 ---end of starting tests---
