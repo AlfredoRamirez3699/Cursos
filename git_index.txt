@@ -87,4 +87,6 @@ la fecha hoy es 20/6/25.
 inicio de pruebas con git
 
 git show status
+
+meging test
 ---end of starting tests---
