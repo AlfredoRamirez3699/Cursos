@@ -93,4 +93,6 @@ inicio de pruebas con git
 git show status
 
 meging test
+
+conflict test b
 ---end of starting tests---
