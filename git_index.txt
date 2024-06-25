@@ -67,6 +67,8 @@ git push origin master                          update cloud ORIGIN repository w
 git push <url> <branch_name>                    update cloud repository on url with selected branch
 
 git pull                                        update local repository from cloud
+git pull origin master                          update local repository from origin url
+git pull <url> <branch_name>                    update local repository branch from selected url
 ------
 
 
