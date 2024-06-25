@@ -31,14 +31,16 @@ git commit -m "<comment>"                       update git version of staged fil
 git commit -am "<comment>"                      update git version of modified files (inc unstaged) with respective comments
 /                                               lack of comment will result in error (vim console to fix)
 
-git show                                        show differences in master vs previous version
+git show                                        show differences in head vs previous version
 
 git diff <commit_SHA> <commit_SHA>              shows differences in code between 2 saved versions
 
 git checkout master                             update head file to master version
+git checkout <branch_name>                      update head file to branch version
 git checkout <commit_SHA>                       updtae head file to selected commit version
 
-git branch                                      creates a branch from current active  version
+git branch                                      shows existing branches
+git branch <branch_name>                        creates branch named <branch_name> from head
 
 git reset <commit_SHA> --soft                   resets branch to choosen commit (keeps staging)
 git reset <commit_SHA> --hard                   resets branch to choosen commit (delets commits in front of choosen commit)
