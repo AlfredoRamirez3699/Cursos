@@ -1,0 +1,72 @@
+---BASH comand index---
+clear                                           clean terminal
+
+ls                                              view available files/folders in directory
+ls -l                                           view available files/folders LIST in directory
+ls -al                                          view available files/folders LIST in directory(show hidden)
+
+history                                         shows history of comands used
+
+!<command history number>                       uses selected command from history
+
+cd <objective directory>                        change directory
+
+<git_command> --help                            command explanation for git
+
+git log                                         deploys list of repository log of commits on current directory
+git log --stat                                  deploys list log of commits with summed changes
+
+git status                                      shows unsaved and staged changes on directory
+
+git add <file>                                  add to stage a modified file
+git add .                                       add to stage all files on current directory
+
+git restore <file>                              discard changes in working directory
+git restore --staged <file>                     unstage file
+
+git rm <file>                                   remove file from current directory
+git rm --cached <file>                          unstage and remove paths from index
+
+git commit -m "<comment>"                       update git version of staged files with respective coments
+git commit -am "<comment>"                      update git version of modified files (inc unstaged) with respective comments
+/                                               lack of comment will result in error (vim console to fix)
+
+git show                                        show differences in master vs previous version
+
+git diff <commit_SHA> <commit_SHA>              shows differences in code between 2 saved versions
+
+git checkout master                             update head file to master version
+git checkout <commit_SHA>                       updtae head file to selected commit version
+
+git branch                                      creates a branch from current active  version
+
+git reset <commit_SHA> --soft                   resets branch to choosen commit (keeps staging)
+git reset <commit_SHA> --hard                   resets branch to choosen commit (delets commits in front of choosen commit)
+
+
+
+--- VIM command index---
+{esc}                                           pressing esc key enables mode swicth
+
+:wq                                             save and exit (write quit)
+{shift} {z} {z}                                 save and quit
+
+:q!                                             exit without changes
+
+
+
+---testing area---
+UWU
+
+adiooos
+
+cmabios reflejados
+
+cambios realizados a las 3 AM
+
+la fecha hoy es 20/6/25.
+
+inicio de pruebas con git
+
+git show status
+---end of starting tests---
