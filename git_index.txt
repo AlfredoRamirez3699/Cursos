@@ -1,4 +1,5 @@
 ---BASH comand index---
+
 clear                                           clean terminal
 
 ls                                              view available files/folders in directory
@@ -49,6 +50,7 @@ git reset <commit_SHA> --hard                   resets branch to choosen commit 
 
 
 ---GitHub command index---
+
 git clone <url>                                 copy EVERYTHING from a cloud repository to local
 
 git push                                        update cloud repository from local
@@ -59,6 +61,7 @@ git pull                                        update local repository from clo
 
 
 --- VIM command index---
+
 {esc}                                           pressing esc key enables mode swicth
 
 :wq                                             save and exit (write quit)
@@ -69,6 +72,7 @@ git pull                                        update local repository from clo
 
 
 ---testing area---
+
 UWU
 
 adiooos
