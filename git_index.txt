@@ -56,9 +56,15 @@ git reset <commit_SHA> --hard                   resets branch to choosen commit 
 
 ---GitHub command index---
 
+git remote                                      show available web git sources
+git remote -v                                   show saved values for origin commands
+git remote add origin <url>                     assign destination url for repository
+
 git clone <url>                                 copy EVERYTHING from a cloud repository to local
 
 git push                                        update cloud repository from local
+git push origin master                          update cloud ORIGIN repository with master branch
+git push <url> <branch_name>                    update cloud repository on url with selected branch
 
 git pull                                        update local repository from cloud
 ------
@@ -92,13 +98,7 @@ inicio de pruebas con git
 
 git show status
 
-<<<<<<< HEAD
-meging test
-
-conflict test b
-=======
 merging test
 
 conflict test a
->>>>>>> additions
 ---end of starting tests---
