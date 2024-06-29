@@ -30,6 +30,7 @@ git restore --staged <file>                     unstage file
 
 git rm <file>                                   remove file from current directory
 git rm --cached <file>                          unstage and remove paths from index
+rm -rf .git                                     remove a accidentally created repository
 
 git commit -m "<comment>"                       update git version of staged files with respective coments
 git commit -am "<comment>"                      update git version of modified files (inc unstaged) with respective comments
@@ -59,15 +60,17 @@ git reset <commit_SHA> --hard                   resets branch to choosen commit 
 git remote                                      show available web git sources
 git remote -v                                   show saved values for origin commands
 git remote add origin <url>                     assign destination url for repository
+git remote remove origin                        delete saved data for origin url
 
 git clone <url>                                 copy EVERYTHING from a cloud repository to local
 
 git push                                        update cloud repository from local
-git push origin master                          update cloud ORIGIN repository with master branch
+git push -u origin master                          update cloud ORIGIN repository with master branch
 git push <url> <branch_name>                    update cloud repository on url with selected branch
 
 git pull                                        update local repository from cloud
 git pull origin master                          update local repository from origin url
+git pull origin master --allow-unrelated-histories      fix incompatibility with unrelaated
 git pull <url> <branch_name>                    update local repository branch from selected url
 ------
 
