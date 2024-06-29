@@ -65,7 +65,7 @@ git remote remove origin                        delete saved data for origin url
 git clone <url>                                 copy EVERYTHING from a cloud repository to local
 
 git push                                        update cloud repository from local
-git push -u origin master                          update cloud ORIGIN repository with master branch
+git push -u origin master                       update cloud ORIGIN repository with master branch
 git push <url> <branch_name>                    update cloud repository on url with selected branch
 
 git pull                                        update local repository from cloud
