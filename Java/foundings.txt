@@ -1,0 +1,14 @@
+Methods (i.e. "main()") let us run a code segment one or more times
+
+Variables in java
+they let us store information that afterwards could be changed or read and are divided into "primitive" and "object"
+
+primitive
+    integers:   store numeric integer values
+    floating:   stores numeric values with decimal point
+    strings:    stores a chain of charachters (not excluding special charachters and numbers)
+
+objects
+    class:
+    interface:
+    array:
